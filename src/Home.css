@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* First Section - Original Content */
+  .first-section {
+    background-image: url('../assets/Background.jpg'); /* Background for only the first section */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  /* Second and Third Sections - Blank */
+  .second-section, .third-section {
+    background: none;
+    min-height: 100vh;
+  }
+  
